@@ -4,6 +4,11 @@ import axios from "axios";
 export default function PersonFList(){
     const [usuarios,setUser] = useState([])
     const url = 'https://jsonplaceholder.typicode.com/users'
+    // const deleteUsers = () =>{
+    //     axios.delete(url).then(res=>{
+
+    //     })
+    //     }
 
     useEffect(()=>{
         axios.get(url).then(req=>{
