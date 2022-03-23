@@ -1,0 +1,71 @@
+body{
+  margin-bottom: 100px;
+  margin-left: 20px;
+}
+td,table{
+  width: auto;
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+.fundo{
+  background-color:rgba(0, 0, 0, 0.5) ;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease .5s;
+}
+.newUsers{
+  display: none;
+  position: absolute;
+  text-align: center;
+}
+.Cadusuarios{
+  text-align: left;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  background-color: aliceblue;
+  width: 400px;
+  margin-top: 150px;
+  margin-left: 400px;
+} 
+input{
+  margin: 8px;
+  width: 300px;
+}
+#titulo{
+  text-align: center;
+  font-weight: bold;
+}
+#gravar{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+#cancelar{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 20px;
+}
+#adicionar{
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 20px;
+}
+#excluir{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+#detalhes{
+  background-color: yellow;
+  font-weight: bold;
+}
